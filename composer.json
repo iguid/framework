@@ -1,0 +1,31 @@
+{
+    "name": "iguid/framework",
+    "autoload": {
+        "psr-4": {
+            "Iguid\\": "src/"
+        },
+        "files": [
+            "src/Config/helpers.php"
+        ]
+    },
+    "version": "dev-master",
+    "description": "Simple Framework php like laravel",
+    "keywords": [
+        "framework",
+        "simple",
+        "MVC"
+    ],
+    "authors": [
+        {
+            "name": "i74ifa",
+            "email": "i74ifa@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9",
+        "symfony/var-dumper": "^6.0"
+    },
+    "scripts": {
+        "test": "phpunit tests --colors --testdox"
+    }
+}
