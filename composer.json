@@ -29,6 +29,7 @@
         "test": "phpunit tests --colors --testdox"
     },
     "require": {
-        "symfony/dotenv": "^6.0"
+        "symfony/dotenv": "^6.0",
+        "mezon/router": "^1.3"
     }
 }
