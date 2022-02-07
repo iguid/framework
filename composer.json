@@ -8,7 +8,7 @@
             "src/Config/helpers.php"
         ]
     },
-    "version": "dev-master",
+    "version": "dev-main",
     "description": "Simple Framework php like laravel",
     "keywords": [
         "framework",
@@ -27,5 +27,8 @@
     },
     "scripts": {
         "test": "phpunit tests --colors --testdox"
+    },
+    "require": {
+        "symfony/dotenv": "^6.0"
     }
 }
