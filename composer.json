@@ -8,7 +8,6 @@
             "src/Config/helpers.php"
         ]
     },
-    "version": "dev-main",
     "description": "Simple Framework php like laravel",
     "keywords": [
         "framework",
@@ -23,13 +22,13 @@
     ],
     "require-dev": {
         "phpunit/phpunit": "^9",
-        "symfony/var-dumper": "^6.0"
+        "symfony/var-dumper": "^6.0",
+        "guzzlehttp/guzzle": "^7.0"
     },
     "scripts": {
         "test": "phpunit tests --colors --testdox"
     },
     "require": {
-        "symfony/dotenv": "^6.0",
-        "mezon/router": "^1.3"
+        "symfony/dotenv": "^6.0"
     }
 }
